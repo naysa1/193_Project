@@ -12,6 +12,7 @@ const Navbar = () => {
             <a href="" className="navbar-content">ANALYSIS</a>
             <a href="" className="navbar-content">STORIES</a>
         </div>
+        <div className="empty-space"></div>
     </div>
   );
 }

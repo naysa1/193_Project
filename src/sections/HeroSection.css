@@ -1,0 +1,29 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 4rem 1rem; */
+    margin: 10%;
+  }
+  
+  .hero-left {
+    width: auto;
+  }
+  
+  .hero-right {
+    width: auto;
+  }
+  
+  .header1 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 100px;
+    color: white;
+  }
+  
+  .header2 {
+    font-family: 'Dongle', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-size: 100px;
+    color: white;
+  }
+  

@@ -1,45 +1,51 @@
 /* Navbar container - position fixed and full-width */
 .navbar-container {
-    display: flex;
-    justify-content: space-between; /* Space between the left and center parts */
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 50;
-    background-color: #447335; /* Dark background color */
-    padding: 0 20px;
-    height: 60px; /* Adjust the height of the navbar */
-  }
-  
-  /* Home button positioned to the left */
-  .home-button {
-    flex: 1;
-  }
-  
-  /* Centered other buttons with space between them */
-  .other-buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: center;
-    width: auto;
-    border: 1px solid white;
-    border-radius: 40px;
-  }
-  
-  .navbar-content {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 0 25px; /* Add some horizontal space between buttons */
-  }
-  
-  /* Hover effect for navbar links */
-  .navbar-content:hover {
-    color: #f0f0f0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  
-  
+  display: flex;
+  justify-content: space-between; /* Space between the left and center parts */
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  /* background-color: #447335;  */
+  /* padding: 0 20px; */
+  height: 60px; /* Adjust the height of the navbar */
+  margin-left: 8%;
+}
+
+/* Home button positioned to the left */
+.home-button {
+  margin-right: auto;
+  width: 20%;
+}
+
+/* Empty div on the right side to create space */
+.empty-space {
+  width: 35%;
+}
+
+/* Centered other buttons with space between them */
+.other-buttons {
+  display: flex;
+  justify-content: center; /* Center buttons within the div */
+  align-items: center;
+  border: solid 1px white;
+  border-radius: 40px;
+  padding: 0 20px; /* Adjust padding to control spacing inside the center div */
+  gap: 15px; /* Space between the buttons */
+}
+
+/* Navbar content (individual button styles) */
+.navbar-content {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 0 25px; /* Add some horizontal space between buttons */
+}
+
+/* Hover effect for navbar links */
+.navbar-content:hover {
+  color: #f0f0f0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

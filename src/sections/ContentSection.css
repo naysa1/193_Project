@@ -1,0 +1,55 @@
+.content-section {
+    padding: 4rem 1rem;
+    width: 100vw;
+    background-color: #87A28E;
+    border-radius: 25px;
+  }
+  .title {
+    color: white;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 90px;
+  }
+  .content-tiles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .content-tile {
+    width: 30%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tile-mini-title {
+    font-family: 'Dongle', sans-serif;
+    font-size: 48px;
+    color: green;
+    text-align: center;
+  }
+  
+  .tile-content {
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    color: green;
+    text-align: center;
+  }
+  
+  .tile-button {
+    background-color:green;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  .tile-button:hover {
+    background-color: #357ABD;
+  }
+  

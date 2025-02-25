@@ -1,0 +1,98 @@
+.about-section {
+  text-align: right;
+  padding: 4rem 1rem;
+  background-color: white;
+  border-radius: 25px;
+  width: 100vw;
+}
+
+.tile-header {
+  font-family: 'DM Serif Display', serif;
+  font-size: 90px;
+  color: #87A28E;
+  margin-right: 5%;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the top */
+  margin-top: 2rem;
+  width: 90%;
+  max-width: 1200px; /* Prevent excessive stretching */
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #87A28E;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  gap: 2rem; /* Space between left and right divs */
+}
+
+.about-left {
+  flex: 1; /* Makes it flexible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-left img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dropdown-container {
+  width: 100%;
+  max-width: 614px; /* Keep dropdown from becoming too wide */
+  border: 2px solid #87A28E;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1rem;
+}
+
+/* Dropdown Button */
+.dropdown {
+  background-color: white;
+  color: #87A28E;
+  padding: 0.75rem;
+  width: 100%;
+  font-size: 2rem;
+  border: 2px solid #87A28E;
+  border-radius: 5px 5px 0px 0px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown.expanded {
+  background-color: #87A28E;
+  color: white;
+  border: 2px solid whitesmoke;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  overflow-y: auto;
+  background-color: #87A28E;
+  border: 1px solid #87A28E;
+  border-radius: 0px 0px 5px 5px;
+  border-top: none;
+  font-size: 20px;
+  text-align: left;
+  padding: 1rem;
+  display: none;
+  width: 100%; /* Ensure it takes full width */
+}
+
+/* Show content when expanded */
+.dropdown-content.expanded {
+  display: block;
+}
