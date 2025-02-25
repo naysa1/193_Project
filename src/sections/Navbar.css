@@ -1,0 +1,45 @@
+/* Navbar container - position fixed and full-width */
+.navbar-container {
+    display: flex;
+    justify-content: space-between; /* Space between the left and center parts */
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background-color: #447335; /* Dark background color */
+    padding: 0 20px;
+    height: 60px; /* Adjust the height of the navbar */
+  }
+  
+  /* Home button positioned to the left */
+  .home-button {
+    flex: 1;
+  }
+  
+  /* Centered other buttons with space between them */
+  .other-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: center;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 40px;
+  }
+  
+  .navbar-content {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 25px; /* Add some horizontal space between buttons */
+  }
+  
+  /* Hover effect for navbar links */
+  .navbar-content:hover {
+    color: #f0f0f0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  

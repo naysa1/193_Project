@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dongle:wght@400;700&display=swap');
+@import "tailwindcss";
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #447335; /* Assuming a dark background for white text */
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Heading Styles */
+.header1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 120px;
+    color: white;
+}
+
+.header2 { /* Assuming subtitle is a class */
+    font-family: 'Dongle', sans-serif;
+    font-size: 120px;
+    color: white;
+}
+
+.tile-header {
+    font-family: 'DM Serif Display', serif;
+    font-size: 90px;
+    color: white;
+}
+
+.tile-subtitle {
+    font-family: 'Dongle', sans-serif;
+    font-size: 64px;
+    color: white;
+}
+
+.tile-content {
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.tile-mini-title {
+    font-family: 'Dongle', sans-serif;
+    font-size: 48px;
+}
+
+/* don't really know what to put here yet */
