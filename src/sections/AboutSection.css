@@ -1,78 +1,71 @@
 .about-section {
-  text-align: right;
-  padding: 4rem 1rem;
+  padding: 20px;
   background-color: white;
-  border-radius: 25px;
   width: 100vw;
 }
 
 .tile-header {
-  font-family: 'DM Serif Display', serif;
-  font-size: 90px;
   color: #87A28E;
-  margin-right: 5%;
+  text-align: right;
 }
-
 .about-content {
   display: flex;
+  gap: 30px;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 2rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  border: 2px solid #87A28E;
-  background-color: white;
-  border-radius: 15px;
-  padding: 2rem;
+  width: 100%;
 }
-
+.about-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
 .about-left img {
-  width: 80%;
+  max-width: 80%;
+  border-radius: 10px;
 }
-
 .about-right {
-  flex-grow: 1;
-  margin-left: 2rem;
+  flex: 1;
+}
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.dropdown-container {
-  width: 617px;
-  max-width: 700px; /* Adjust width to fit container */
-  border: 2px solid #87A28E;
-  border-radius: 5px;
-  background-color: white;
-  padding: 1rem;
+.dropdown-item {
+  margin-bottom: 10px;
 }
 
 .dropdown {
-  background-color: white;
-  color: #87A28E;
-  padding: 1rem;
-  width: 580px;
-  font-size: 40px;
-  border: 2px solid #87A28E;
-  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
   cursor: pointer;
-  transition: background-color 0.3s ease;
   text-align: left;
+  font-size: 35px;
+  color: #87A28E;
 }
 
 .dropdown.expanded {
-  background-color: #87A28E;
-  color: white;
+  background-color: #e0e0e0;
 }
 
 .dropdown-content {
-  display: none;
-  padding: 1rem;
-  background-color: #87A28E;
-  border: 1px solid #87A28E;
-  border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  color: #87A28E;
+  transition: max-height 0.3s ease-in-out;
+  padding: 0 10px;
+  background: white;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   font-size: 25px;
-  text-align: left;
-  color: white;
 }
 
 .dropdown-content.expanded {
-  display: block;
+  max-height: 150px; /* Fixed height */
+  overflow-y: auto;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
 }

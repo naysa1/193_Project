@@ -1,55 +1,64 @@
 .content-section {
-    padding: 4rem 1rem;
-    width: 100vw;
-    background-color: #87A28E;
-    border-radius: 25px;
-  }
-  .title {
-    color: white;
-    text-align: center;
-    font-family: 'DM Serif Display', serif;
-    font-size: 90px;
-  }
-  .content-tiles {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-  
-  .content-tile {
-    width: 30%;
-    background-color: white;
-    padding: 2rem;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .tile-mini-title {
-    font-family: 'Dongle', sans-serif;
-    font-size: 48px;
-    color: green;
-    text-align: center;
-  }
-  
-  .tile-content {
-    font-family: 'Dongle', sans-serif;
-    font-size: 30px;
-    color: green;
-    text-align: center;
-  }
-  
-  .tile-button {
-    background-color:green;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    margin-top: 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    justify-content: center;
-  }
-  
-  .tile-button:hover {
-    background-color: #357ABD;
-  }
+  padding: 4rem 1rem;
+  width: 100vw;
+  background-color: #87A28E;
+  border-radius: 25px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 90px;
+}
+
+.content-tiles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 20px; /* Adds spacing between tiles */
+}
+
+.content-tile {
+  width: 30%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures even spacing */
+  align-items: center;
+  height: 350px; /* Fixed height for uniform tiles */
+  text-align: center;
+}
+
+.tile-mini-title {
+  font-family: 'Dongle', sans-serif;
+  font-size: 48px;
+  color: green;
+}
+
+.tile-content {
+  font-family: 'Dongle', sans-serif;
+  font-size: 30px;
+  color: green;
+  flex-grow: 1; /* Allows text to expand without affecting button */
+  overflow-y: auto; /* Scroll if content overflows */
+  max-height: 200px; /* Prevents excessive content from expanding tile */
+}
+
+.tile-button {
+  background-color: green;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  margin-top: auto; /* Pushes button to the bottom */
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.tile-button:hover {
+  background-color: #357ABD;
+}
+
   
