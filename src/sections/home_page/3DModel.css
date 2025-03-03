@@ -1,0 +1,8 @@
+.spline-container{
+    width: 870px;
+    height: 900px;
+}
+
+.spline-container canvas {
+    transform: scale(0.6);
+}

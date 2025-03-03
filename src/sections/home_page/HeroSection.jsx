@@ -1,5 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
+import RobotModel from './3DModel';
+
 
 const HeroSection = () => {
   return (
@@ -9,7 +11,7 @@ const HeroSection = () => {
         <h2 className="header2">iRobot's Breakdown</h2>
       </div>
       <div className="hero-right">
-        <p className="text-white text-xl">[ 3D model placeholder ]</p> {/* Replace with actual 3D model */}
+        <RobotModel />
       </div>
     </section>
   );

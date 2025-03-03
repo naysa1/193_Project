@@ -2,16 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 4rem 1rem; */
-    margin: 10%;
+    margin-left: 7%;
+    width: auto;
+    height: auto;
   }
   
   .hero-left {
-    width: auto;
+    flex: 1;
   }
   
   .hero-right {
-    width: auto;
+    flex: 1;
+    width: 100%;
+    position: relative;
   }
   
   .header1 {

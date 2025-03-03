@@ -23,9 +23,9 @@ const Navbar = () => {
             <a href="/" className="navbar-content">HOME</a>
         </div>
         <div className="other-buttons">
-            <a href="" className="navbar-content">FINANCIAL</a>
-            <a href="" className="navbar-content">ANALYSIS</a>
-            <a href="" className="navbar-content">STORIES</a>
+            <a href="/page1" className="navbar-content">FINANCIAL</a>
+            <a href="/page2" className="navbar-content">ANALYSIS</a>
+            <a href="/page3" className="navbar-content">STORIES</a>
         </div>
     </div>
   );

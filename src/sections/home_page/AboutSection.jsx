@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img1 from "../assets/img1.png"; // Ensure correct path
+import img1 from "../../assets/img1.png"; // Ensure correct path
 import "./AboutSection.css"; // Ensure CSS is correctly imported
 
 const AboutSection = () => {
