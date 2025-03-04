@@ -1,0 +1,84 @@
+.company_section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+}
+
+.company_title {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 3%;
+}
+
+.company_content {
+    display: flex;
+    flex-direction: row;
+    margin-right: 4%;
+    margin-bottom: 4%;
+
+    .table1, .table2 {
+        width: 100%;
+        border-collapse: collapse;
+        background: transparent;
+        font-size: 24px;
+        color: white;
+    }
+    
+    .table1 th, .table1 td, .table2 th, .table2 td {
+        border: 1px solid white;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    .table1 th, .table2 th {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    ul {
+        padding-left: 10px;
+    }
+    
+    .left_image{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        justify-content: center;
+    }
+
+    .left_image img{
+        max-width: 80%;
+        border-radius: 10px;
+    }
+
+    .right_content{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .right_up{
+            display: flex;
+            flex-direction: column;
+
+            .up_title {
+                /* font-family: 'DM Serif Display', serif; */
+                font-size: 60px;
+                text-align: center;
+            }
+        }
+
+        .right_down{
+            display: flex;
+            flex-direction: column;
+
+            .down_title{
+                font-size: 60px;
+                text-align: center;
+            }
+        }
+    }
+}

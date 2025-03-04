@@ -23,9 +23,8 @@ import AnnualRev_Section from './sections/financial_page/AnnualRev_Section';
 import ProfitMargin_Section from './sections/financial_page/ProfitMargin_Section';
 import ESG_Section from './sections/financial_page/ESG_Section';
 
-import NewPage2 from './sections/analysis_page/page2'; 
-
-import NewPage3 from './sections/stories_page/page3'; 
+import Industry_Section from './sections/analysis_page/Industry_Section';
+import Company_Section from './sections/analysis_page/Company_Section';
 
 const Home = () => (
   <main className="max-w-7xl mx-auto">
@@ -46,7 +45,8 @@ const Financial = () => (
 
 const Analysis = () => (
   <main className="max-w-7xl mx-auto">
-
+    <Industry_Section />
+    <Company_Section />
   </main>
 );
 
@@ -62,9 +62,9 @@ const App = () => {
       <Navbar /> {/* Keep navbar on all pages */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/page1" element={<Financial />} />
-        <Route path="/page2" element={<Analysis />} />
-        <Route path="/page3" element={<Stories />} />
+        <Route path="/Financial" element={<Financial />} />
+        <Route path="/Analysis" element={<Analysis />} />
+        <Route path="/Stories" element={<Stories />} />
       </Routes>
     </Router>
   );
