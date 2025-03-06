@@ -36,6 +36,7 @@
   font-family: 'Dongle', sans-serif;
   font-size: 48px;
   color: green;
+  border: none;
 }
 
 .tile-content {

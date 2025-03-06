@@ -1,38 +1,4 @@
-// import React from 'react';
-// import "./Company_Section.css";
 
-// const Company_Section = () => {
-//   return (
-//     <section className="company_section">
-//         <div className="company_title">Company Analysis</div>
-//         <hr />
-//         <div className="company_content">
-//             <div className="left_image">
-//                 image : D
-//             </div>
-//             <div className="right_content">
-//                 <div className="right_up">
-//                     <div className="up_title">Technology Strategy</div>
-//                     <div className="up_content">
-//                         <table className="table1">
-//                             <tr>
-//                                 <th>Definition</th>
-//                                 <th>iRobot</th>
-//                             </tr>
-//                         </table>
-//                     </div>
-//                 </div>
-//                 <div className="right_down">
-//                     <div className="down_title">Product/Market Strategy</div>
-//                     <div className="down_content">table</div>
-//                 </div>
-//             </div>
-//         </div>
-//     </section>
-//   )
-// }
-
-// export default Company_Section;
 import React from 'react';
 import "./Company_Section.css";
 import company from "../../assets/company.png"

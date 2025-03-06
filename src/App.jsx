@@ -26,6 +26,9 @@ import ESG_Section from './sections/financial_page/ESG_Section';
 import Industry_Section from './sections/analysis_page/Industry_Section';
 import Company_Section from './sections/analysis_page/Company_Section';
 
+import Recent_Section from './sections/stories_page/Recent_Section';
+import Investor_Section from './sections/stories_page/Investor_Section';
+
 const Home = () => (
   <main className="max-w-7xl mx-auto">
     <Navbar />
@@ -52,7 +55,8 @@ const Analysis = () => (
 
 const Stories = () => (
   <main className="max-w-7xl mx-auto">
-
+    <Recent_Section />
+    <Investor_Section />
   </main>
 );
 
