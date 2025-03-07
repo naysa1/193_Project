@@ -3,6 +3,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #87A28E;
 }
 
 .industry_title {
