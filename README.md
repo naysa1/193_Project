@@ -22,7 +22,7 @@ This project is a React-based website providing an in-depth analysis of iRobot, 
 1. **Install Dependencies**  
    ```bash
    npm install
-2. **Start Development Server
+2. **Start Development Server**
    ```bash
    npm run dev
 note: make sure nvm version is 18
