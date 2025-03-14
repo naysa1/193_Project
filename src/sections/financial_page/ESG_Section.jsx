@@ -14,7 +14,7 @@ const ESG_Section = () => {
             <BarChartComponent />
         </div>
         <p className="right-text">
-        iRobot holds an ESG Risk Rating of +16.6%, categorized as "Medium" risk. This rating reflects a balanced exposure to environmental, social, and governance risks, with room for improvement in managing these areas
+        An ESG score, which stands for Environmental, Social, and Governance score, is a metric used to evaluate a company's performance across these three key areas, essentially assessing its sustainability and ethical practices by looking at its environmental impact, social responsibility, and corporate governance standards; it's a way for investors to compare a company's sustainability efforts against its industry peers. iRobot holds an ESG Risk Rating of +16.6%, categorized as "Medium" risk. This rating reflects a balanced exposure to environmental, social, and governance risks, with room for improvement in managing these areas
         </p>
       </div>
     </section>
