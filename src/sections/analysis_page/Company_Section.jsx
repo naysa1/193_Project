@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./Company_Section.css";
-import company from "../../assets/company.png"
+import company from "../../assets/Company.png"
 
 const Company_Section = () => {
   return (
